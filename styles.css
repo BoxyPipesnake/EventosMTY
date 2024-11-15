@@ -2,6 +2,21 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.sombra-card {
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.animacion-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animacion-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 .c-item {
     height: 500px;
 }
