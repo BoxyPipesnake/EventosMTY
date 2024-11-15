@@ -16,6 +16,15 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+.boton-personalizado {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el efecto */
+}
+
+.boton-personalizado:hover {
+    transform: scale(1.1); /* Agranda ligeramente el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra al pasar el mouse */
+}
+
 
 .c-item {
     height: 500px;
