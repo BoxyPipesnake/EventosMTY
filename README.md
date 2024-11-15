@@ -4,6 +4,7 @@
 - [Descripción](#descripción)
 - [Características](#características)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Cómo desplegar el proyecto](#cómo-desplegar-el-proyecto)
 
 ---
 
@@ -28,3 +29,28 @@
 - **Git**: Control de versiones para manejar los cambios del proyecto de forma eficiente.
 
 ---
+
+## Cómo desplegar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/BoxyPipesnake/EventosMTY.git
+---
+2. Abre el proyecto en tu editor de código:
+
+- Abre tu editor preferido, como Visual Studio Code.
+
+- Ve a la carpeta donde clonaste el repositorio y ábrelo.
+---
+3. Instala la extensión Live Server:
+
+- Ve a la sección de extensiones en Visual Studio Code.
+
+- Busca e instala Live Server.
+----
+4. Ejecuta el proyecto:
+
+- Haz clic derecho en el archivo index.html.
+Selecciona Open with Live Server.
+
+- Se abrirá la página automáticamente en tu navegador.
