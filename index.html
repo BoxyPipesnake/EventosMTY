@@ -10,48 +10,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="bg-gray">
-    
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active c-item">
-            <img src="./img/carrusel/concierto.jpg" class="d-block w-100 c-img" alt="...">
-            <div class="carousel-caption top-0 mt-5">
-                <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Conciertos</h2>
-                <p class="fs-3 text-light mt-5">Conciertos para todos los gustos, donde la música en vivo se convierte en un espectáculo vibrante.</p>
-            </div>
-          </div>
-          <div class="carousel-item c-item">
-            <img src="./img/carrusel/festival.jpg" class="d-block w-100 c-img" alt="...">
-            <div class="carousel-caption top-0 mt-5">
-                <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Festivales</h2>
-                <p class="fs-3 text-light mt-5">Festivales que reúnen a fanáticos, artistas y nuevas experiencias en un ambiente lleno de ritmo y emoción.</p>
-            </div>
-          </div>
-          <div class="carousel-item c-item">
-            <img src="./img/carrusel/exposiciones.jpg" class="d-block w-100 c-img" alt="...">
-            <div class="carousel-caption top-0 mt-5">
-                <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Exposiciones</h2>
-                <p class="fs-3 text-light mt-5">Descubre exposiciones que celebran la pintura, escultura, fotografía y más, acercándote al arte en todas sus formas.</p>
-            </div>
-          </div>
-          <div class="carousel-item c-item">
-            <img src="./img/carrusel/actsairelibre.jpg" class="d-block w-100 c-img" alt="...">
-            <div class="carousel-caption top-0 mt-5">
-                <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Actividades al aire libre</h2>
-                <p class="fs-3 text-light mt-5">Disfruta de actividades que combinan movimiento, frescura y la oportunidad de descubrir nuevos rincones.</p>
-            </div>
-          </div>
+<body>
+
+    <header class="container-fluid p-0 row row-cols-1 row-cols-md-2 reset-margin reset-padding ">
+        <div
+            class="col-md-4 d-md-flex flex-md-column align-items-md-center justify-content-md-center p-4 p-md-5 text-center">
+            <h1 class="p-0">Eventos Monterrey</h1>
+            <p class="mt-3">
+                Explora lo mejor de Monterrey con nuestra guía de eventos. Desde conciertos vibrantes hasta festivales
+                únicos, actividades al aire libre y exposiciones de arte, encuentra aquí todo lo que necesitas para
+                disfrutar la ciudad al máximo.
+            </p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <div id="carouselExample" class="carousel slide bg-dark reset-margin reset-padding col-md-8"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item" data-bs-interval="5000">
+                    <img src="./img/carrusel/concierto.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-5">
+                        <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Conciertos</h2>
+                        <p class="fs-3 text-light mt-5">Conciertos para todos los gustos, donde la música en vivo se
+                            convierte en un espectáculo vibrante.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item" data-bs-interval="5000">
+                    <img src="./img/carrusel/festival.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-5">
+                        <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Festivales</h2>
+                        <p class="fs-3 text-light mt-5">Festivales que reúnen a fanáticos, artistas y nuevas
+                            experiencias en un ambiente lleno de ritmo y emoción.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item" data-bs-interval="5000">
+                    <img src="./img/carrusel/exposiciones.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-5">
+                        <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Exposiciones</h2>
+                        <p class="fs-3 text-light mt-5">Descubre exposiciones que celebran la pintura, escultura,
+                            fotografía y más, acercándote al arte en todas sus formas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item c-item" data-bs-interval="5000">
+                    <img src="./img/carrusel/actsairelibre.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 mt-5">
+                        <h2 class="display-1 text-light fw-bold text-capitalize mt-5">Actividades al aire libre</h2>
+                        <p class="fs-3 text-light mt-5">Celebra la libertad del aire libre con experiencias diseñadas
+                            para revitalizar cuerpo y mente.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
 
 
     <section class="container-fluid d-flex justify-content-center align-items-center flex-column mb-5">
@@ -118,7 +136,8 @@
     </section>
 
 
-    <section class="container-fluid mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 p-5 ps-3 pe-3">
+    <section
+        class="container-fluid mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 p-5 ps-3 pe-3">
         <div class="container row row-cols-1 row-cols-md-2">
             <div class="col d-md-flex align-items-md-center">
                 <h3 class="fs-4 text-center p-2 fw-bold">
