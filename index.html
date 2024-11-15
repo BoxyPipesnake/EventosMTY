@@ -11,30 +11,31 @@
 </head>
 
 <body class="bg-gray">
-    <header class="container-fluid bg-dark text-center pt-5 p-3 p-5
-    ">
-        <div class="container-md">
-            <h1 class="fs-1 fw-bold text-light">Bienvenido a los mejores eventos de Monterrey</h1>
-            <p class="fs-5 text-light mt-5">
-                Monterrey es una ciudad llena de vida y emoción, y aquí podrás encontrar todos los eventos más
-                destacados que se
-                celebrarán en la ciudad. Ya sea que busques conciertos, festivales, exposiciones o actividades al aire
-                libre,
-                ¡tenemos algo para ti!
-            </p>
+    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active c.item">
+            <img src="./img/carrusel/concierto.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c.item">
+            <img src="./img/carrusel/festival.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c.item">
+            <img src="./img/carrusel/exposiciones.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c.item">
+            <img src="./img/carrusel/actsairelibre.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
         </div>
-    </header>
-
-    <section class="container-fluid p-0">
-        <div id="carouselExampleSlidesOnly" class="carousel w-100" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item  imagen-carrusel bg-img-1  active"></div>
-                <div class="carousel-item imagen-carrusel bg-img-2 "></div>
-                <div class="carousel-item imagen-carrusel bg-img-3"></div>
-                <div class="carousel-item imagen-carrusel bg-img-4"></div>
-            </div>
-        </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 
     <section class="container-fluid d-flex justify-content-center align-items-center flex-column mb-5">
@@ -101,7 +102,7 @@
     </section>
 
 
-    <section class="container-fluid mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 mb-5">
+    <section class="container-fluid mt-5 d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 p-5 ps-3 pe-3">
         <div class="container row row-cols-1 row-cols-md-2">
             <div class="col d-md-flex align-items-md-center">
                 <h3 class="fs-4 text-center p-2 fw-bold">
@@ -125,7 +126,7 @@
         </div>
     </section>
 
-    <footer class="container-fluid bg-dark p-5 mt-5 d-flex flex-column flex-md-row justify-content-md-around
+    <footer class="container-fluid bg-dark p-5 d-flex flex-column flex-md-row justify-content-md-around
     align-items-center justify-content-center gap-3 ">
         <a href="#" class="fs-3 text-light fw-bold text-decoration-none">#BecalosTechChallenge</a>
         <a href="#" class="fs-3 text-light fw-bold text-decoration-none">DEV.F</a>
